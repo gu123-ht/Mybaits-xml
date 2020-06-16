@@ -21,6 +21,9 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    /**
+     * 查询所有User
+     */
     @GetMapping
     @ApiOperation("xml方式查询所有测试")
     public void findAll() {
